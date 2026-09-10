@@ -19,16 +19,16 @@ Run in order — each script imports the results of the previous one.
 
 | Script | Content |
 | --- | --- |
-| `prepare_data.py` | Loads the data, estimates the reduced-form VAR(12), whitens the residuals, and tests the model assumptions |
-| `estimate_pml.py` | PML estimation of the rotation angles and the degrees of freedom of the pseudo densities |
-| `estimate_ica.py` | FastICA estimation of the rotation angles for both contrast functions |
-| `diagnostics.py` | Jarque–Bera tests on the estimated shocks of all three methods |
+| `s01_prepare_data.py` | Loads the data, estimates the reduced-form VAR(12), whitens the residuals, and tests the model assumptions |
+| `s02_estimate_pml.py` | PML estimation of the rotation angles and the degrees of freedom of the pseudo densities |
+| `s03_estimate_ica.py` | FastICA estimation of the rotation angles for both contrast functions |
+| `s04_diagnostics.py` | Jarque–Bera tests on the estimated shocks of all three methods |
 
 ```bash
-python prepare_data.py
-python estimate_pml.py
-python estimate_ica.py
-python diagnostics.py
+python s01_prepare_data.py
+python s02_estimate_pml.py
+python s03_estimate_ica.py
+python s04_diagnostics.py
 ```
 
 ## Requirements
