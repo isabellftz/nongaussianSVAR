@@ -4,9 +4,9 @@ import numpy as np
 from scipy.stats import chi2
 import pandas as pd
 
-from prepare_data import u, u_df, Sigma_u, p
-from estimate_pml import B_pml, w_pml, T, K
-from estimate_ica import results_ICA
+from s01_prepare_data import u, u_df, Sigma_u, p
+from s02_estimate_pml import B_pml, w_pml, T, K
+from s03_estimate_ica import results_ICA
 
 w_ica_G1 = results_ICA["log cosh"]["w"]
 w_ica_G2 = results_ICA["exp"]["w"]
