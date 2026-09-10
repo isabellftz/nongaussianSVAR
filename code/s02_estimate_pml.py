@@ -4,7 +4,7 @@ from scipy.optimize import minimize
 from scipy.special import gammaln
 from itertools import combinations
 
-from 01_prepare_data import u, u_tilde, M, Sigma_u, names, p
+from s01_prepare_data import u, u_tilde, M, Sigma_u, names, p
 
 T, K = u.shape
 m = K * (K - 1) // 2
