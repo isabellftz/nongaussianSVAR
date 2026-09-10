@@ -6,8 +6,8 @@ from scipy.stats import norm
 from itertools import combinations
 
 
-from prepare_data import u_tilde, M, names
-from estimate_pml import given_rotations, K, m
+from s01_prepare_data import u_tilde, M, names
+from s02_estimate_pml import given_rotations, K, m
 
 
 def G_1(v, a=1):
